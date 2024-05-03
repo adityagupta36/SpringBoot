@@ -18,7 +18,8 @@ public class App03GamingSpringBeans {
 			
 			context.getBean(GameRunner.class).run();
 
-			
+//			GameRunner gr = (GameRunner) context.getBean(GameRunner.class);
+//			gr.run();
 			
 		} catch (BeansException e) {
 			// TODO Auto-generated catch block

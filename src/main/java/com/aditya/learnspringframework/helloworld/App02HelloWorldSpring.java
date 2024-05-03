@@ -22,9 +22,9 @@ public class App02HelloWorldSpring {
 			//2: Configure things that we want Spring to manage -@Configuration
 			//HelloWorldConfiguration -@Configuration
 			//name -@Bean
-			System.out.println(context.getBean("name"));
-			System.out.println(context.getBean("age"));
-			System.out.println(context.getBean("person"));
+			System.out.println(context.getBean("name"));   
+			System.out.println(context.getBean("age"));   
+			System.out.println(context.getBean("person"));  
 			System.out.println(context.getBean("address2"));   //name of the bean
 			System.out.println(context.getBean("person2MethodCall"));
 			System.out.println(context.getBean("person3Parameters"));

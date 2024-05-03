@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Primary;
 //Public accessor methods, constructor, 
 //equals, hashcode and toString are automatically created. 
 //Released in JDK 16.
-record Person(String name, int age, Address adress) {
+record Person(String name, int age, Address address) {
 };
 
 record Address(String firstLine, String city) {

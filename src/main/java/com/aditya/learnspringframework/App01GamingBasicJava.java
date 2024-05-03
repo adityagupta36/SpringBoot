@@ -14,6 +14,7 @@ public class App01GamingBasicJava {
 //		GamingConsole game = new SuperContraGame();
 		
 		GamingConsole game = new PacmanGame();            //1:Object Creation
+		
 		GameRunner gameRunner = new GameRunner(game);     
 		//2:Object creation + Wiring of Dependencies
 		//game is a dependency of GameRunner 
